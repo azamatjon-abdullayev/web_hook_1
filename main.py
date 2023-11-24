@@ -5,7 +5,7 @@ from data.config import BOT_TOKEN
 
 app = FastAPI()
 WEBHOOK_PATH=f'/{BOT_TOKEN}/'
-WEBHOOK_URL=' https://252c-84-54-122-223.ngrok.io -> http://localhost:8000'+WEBHOOK_PATH
+WEBHOOK_URL='https://test-bot-4fvr.onrender.com'+WEBHOOK_PATH
 
 @app.on_event('startup')
 async def on_startup():
